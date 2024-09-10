@@ -4,7 +4,7 @@ on:
   # Trigger on pushes to the main branch
   push:
     branches:
-      - main
+      - ghw-azure
     paths:
       - .github/workflows/azure-static-web-apps-react-pipeline.yml
       - 'app/client/**'
