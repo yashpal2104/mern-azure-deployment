@@ -7,7 +7,7 @@ on:
   # Trigger the workflow on push events to the main branch
   push:
     branches:
-      - main
+      - ghw-azure
     # Only trigger if changes are made to these files or directories
     paths:
       - .github/workflows/azure-web-app-backend-pipeline.yml
